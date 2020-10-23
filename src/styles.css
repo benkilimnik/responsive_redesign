@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card{
+  @apply relative overflow-hidden bg-white border-gray-200 rounded shadow-md;
+}
+
+.badge{
+  @apply absolute top-0 p-2 mt-2 ml-2 text-xs font-bold uppercase rounded-full bg-secondary-100 text-secondary-200;
+}
+
+.btn{
+  @apply px-3 py-2 text-xs font-bold tracking-wider uppercase rounded-full cursor-pointer;
+}
+
+.header1 {
+@apply py-12 text-4xl font-semibold leading-none tracking-wider text-gray-700;
+}
+
+.header2 {
+@apply pt-12 pb-6 mt-1 text-2xl font-semibold leading-none tracking-wider text-gray-700;
+}
+
+.paragraph {
+@apply max-w-lg mt-1 mb-6 leading-loose;
+}
+
+.navbar-nav a.active {
+  /* font-weight: bold; */
+    --text-opacity: 1;
+    color: #4a5568;
+    color: rgba(74, 85, 104, var(--text-opacity));
+  /* font-bold text-gray-700 */
+
+  border-left-width: 4px;
+  /* border-l-4 */
+
+  border-color: #FF6363;
+}
+
+.form-container{
+  @apply relative flex flex-col w-full max-w-lg min-w-0 my-8 break-words bg-gray-300 border-0 rounded-lg shadow-lg;
+}

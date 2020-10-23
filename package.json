@@ -1,0 +1,24 @@
+{
+  "name": "responsive_redesign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css",
+    "watch": "postcss src/styles.css -o public/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benkilimnik/responsive_redesign.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benkilimnik/responsive_redesign/issues"
+  },
+  "homepage": "https://github.com/benkilimnik/responsive_redesign#readme",
+  "dependencies": {
+    "tailwindcss": "^1.9.5"
+  }
+}
